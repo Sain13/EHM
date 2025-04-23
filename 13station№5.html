@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Станция 5: География</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="emblem.jpg" type="image/jpg" />
+
+</head>
+<body style="     background: linear-gradient(135deg, #2d6a4f, #b8e994);">
+  <div class="center">
+    <h1 class="station-title">🌍 Станция 5
+        <br>География — «Ориентир на Землю»
+    </h1>
+    <div class="task">
+
+        <p>
+            🧭 Описание станции:
+            Вы поднялись на высоту — и оказались в центре Земли! Не буквально, конечно, но теперь всё зависит от вашего умения ориентироваться по картам, узнавать флаги, чтению координат и географической логике. Проверьте себя — и откройте финальный элемент квеста!
+            
+        </p>
+ 
+        <div class="hint1" id="hint1">
+            <h4>1. Где находится вулкан Килиманджаро?</h4>
+            <ul>
+              <li>a) Южная Америка</li>
+              <li>b) Африка</li>
+              <li>c) Индонезия</li>
+              <li>d) Австралия</li>
+            </ul>
+            <div class="buttons">
+              <span></span>  
+              <button class="btn-next" onclick="nextQuestion()">→</button>
+            </div>
+          </div>
+          
+          <div class="hint1" id="hint2" style="display:none;">
+            <h4>2. Какая страна находится к востоку от Каспийского моря и известна своими пустынями?</h4>
+            <ul>
+              <li>a) Казахстан</li>
+              <li>b) Туркменистан</li>
+              <li>c) Индонезия</li>
+              <li>d) Австралия</li>
+            </ul>
+            <div class="buttons">
+              <button class="btn-prev" onclick="previousQuestion()">←</button>
+              <button class="btn-next" onclick="nextQuestion()">→</button>
+            </div>
+          </div>
+          
+          <div class="hint1" id="hint3" style="display:none;">
+            <h4>3. Определите по координатам, что за объект:</h4>
+            <p style="margin-top: 1.5vh;">📍Координаты: 27°59′17″ с. ш. 86°55′31″ в. д.</p>
+            <ul>
+              <li>a) Эверест</li>
+              <li>b) Килиманджаро</li>
+              <li>c) Маунт-Фудзи</li>
+              <li>d) Гора Какапо</li>
+            </ul>
+            <div class="buttons">
+              <button class="btn-prev" onclick="previousQuestion()">←</button>
+              <span></span>  
+            </div>
+          </div>
+    </div>
+ 
+ 
+          
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
+ 
